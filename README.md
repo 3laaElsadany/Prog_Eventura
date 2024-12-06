@@ -57,7 +57,7 @@ Node Eventura is a Node.js application designed to manage events, users, and rel
 The application will be available at [http://localhost:3000](http://localhost:3000).
 
 ## API Endpoints
-
+            
 ### Users
 
 - **POST `/users/signup`** - Register a new user.
@@ -66,6 +66,6 @@ The application will be available at [http://localhost:3000](http://localhost:30
 ### Events
 
 - **GET `/events`** - Get all events.
-- **POST `/events`** - Create a new event (authentication required).
-- **PUT `/events/:id`** - Update event details (authentication required).
-- **DELETE `/events/:id`** - Delete an event (authentication required).
+- **POST `/events/create`** - Create a new event (authentication required).
+- **POST `/events/update/:id`** - Update event details (authentication required).
+- **DELETE `/events/delete/:id`** - Delete an event (authentication required).
